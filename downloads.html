@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    </head>
+    <body>
+        <style>
+            body
+            {
+                margin: 0;
+                padding: 0;
+            }
+            .space{
+                width: 100%;
+                height: 150px;;
+            }
+
+            .bg
+            {
+                width: 100%;
+                bottom: 0;
+                top: 0;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-image: url(./img/planet-ascending.jpg);
+                position: absolute;
+            }
+            .APPlogo{
+                width: 60px;
+                height: 60px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-image: url(./ico3.png);
+            }
+            .btn
+            {
+                width: auto;
+                height: 60px;
+                background-color: rgba(240, 248, 255, 0.385);
+                border-radius: 10px;
+                box-shadow: 0px 0px 20px white;
+                color: rgb(0, 162, 255);
+                border: none;
+                margin: 20px;
+            }
+            .btn:hover{
+                box-shadow: 0px 0px 30px rgb(0, 162, 255);
+                background-color: rgb(0, 162, 255 , 0.685);
+                color: white;
+            }
+        </style>
+        <div class="bg" align="center">
+                <div class="space"></div>
+                <table>
+                    <td>
+                        <div class="APPlogo"></div>
+                    </td>
+                    <td>
+                        <h1 style="font-weight: 1000;font-size: 40px;margin-left: 10px;color: rgb(0, 162, 255);">Kylin Studio</h1>
+                    </td>
+                </table>
+                <p style="color: rgb(0, 162, 255);font-weight: 600;">For China Linux Developer.</p>
+                <div style="width:100%;height: 70px;"></div>
+                <button class="btn">Get It Form Github</button>
+                <button class="btn">Get It Form Gitee</button>
+                <button class="btn">Downloads Now</button>
+        </div>
+    </body>
+</html>

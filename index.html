@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+        <link rel="icon" href="ico3.png" sizes="16x16">
+        <title>KyLin Studio 兴开源之势、助中国操作操作系统生态</title>
+        <script src="script.js"></script>
+        <link href="page.css" rel="stylesheet" />
+    </head>
+    <body scroll="no">
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                overflow-y:hidden
+            }
+            .topdiv
+            {
+                width: 100%;
+                height: 70px;
+                background-color: white;
+                box-shadow: 0px 0px 20px black;
+                position: absolute;
+            }
+            .logo1
+            {
+                width: 40px;
+                height: 40px;
+                background-image: url(./ico3.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .leftmenu
+            {
+                width: 60px;
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                box-shadow: 0px 0px 10px black;
+            }
+            .leftmenu:hover
+            {
+                box-shadow: 0px 0px 10px black;
+            }
+        </style>
+        <iframe class="iframe" src="main.html" id="iframe"></iframe>
+        <div class="menu" style="    background-color: white;" id="menu" align="center">
+            <br />
+            <div style="width: 100%;height: 100px;"></div>
+            <table align="center">
+                <td>
+                    <div style="width: 70px;height: 10px;"></div>
+                </td>
+                <td>
+                    <input class="search" placeholder="Search" />
+                    <div style="width: 100%;height: 40px;"></div>
+                    <button class="btn" onclick="window.location.href=''">首页 Main</button>
+                    <button class="btn" onclick="window.location.href='downloads.html'">下载 Downloads</button>
+                    <button class="btn" onclick="window.location.href='document'">文档 Document</button>
+                    <button class="btn">帮助Help</button>
+                    <button class="btn">开发 Develop</button>
+                    <button class="btn" onclick="window.location.href='activation'">激活 Activation</button>
+                    <button class="btn" style="background-color: rgb(255, 101, 101);" id="exit">Close</button>
+                </td>
+            </table>
+        </div>
+        <div class="leftmenu" id="leftmenu" align="center">
+            <div style="width: 100%;height: 70px;"></div>
+            <br />
+            <button class="searchbtn">Search</button>
+            <br />
+            <br />
+            <button class="searchbtn">Pages</button>
+        </div>
+        <div class="topdiv">
+            <table>
+                <td>
+                    <div style="width: 20px;height: 70px;"></div>
+                </td>
+                <td>
+                    <div class="logo1"></div>
+                </td>
+                <td>
+                    <h2 style="color: rgb(0, 183, 255);">KyLin Studio</h2>
+                </td>
+            </table>
+        </div>
+    </body>
+</html>
